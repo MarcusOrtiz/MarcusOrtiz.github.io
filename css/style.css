@@ -1,0 +1,202 @@
+/* ======================== Global Presets ===================*/
+body {
+    margin: 0;
+    color:#034b78;
+    background-color: silver;
+}
+
+/* ========================= Typeset ========================*/
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 20px;
+}
+
+/* ================ Layout Navigation Bar =================== */
+header {
+    background-color: rgb(10, 173, 179);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+/* Capital One Logo */
+.logo {
+    margin: 0 710px 0 17px;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* toolbar buttons */
+  .toolbar a {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #034b78;
+    font-weight: bold;
+  }
+  
+  /* toolbar buttons when hovering over*/
+  .toolbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* Adjusting the padding on the non-search icon */
+  .not-search {
+    padding: 10px;
+  }
+
+
+  /* ===================== Layout Main ===================== */
+  main {
+    margin-top: 68px;
+  }
+  /* Background city image */
+  .title-background {
+    border: black solid;
+    background-image: url("file:///c:/Users/marcu/capital one/images/city-3.jpg");
+
+  }
+  /* Text in front of image (city) */
+  .title {
+    text-align: center;
+    padding: 70px;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+  }
+
+  /* Text animation to work with different browsers/devices */
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+/* Text animation ending */
+
+
+    .main-columns {
+        display: flex;
+    }
+
+/* Ledf */
+    .introduction {
+        background: white;
+        border: #034b78 solid 15px;
+        border-radius: 10px;
+        width: 110px;
+        padding: 20px;
+        margin: 100px 100px 100px 140px;
+    }
+
+    .checker {
+        background: white;
+        border: #034b78 solid 5px;
+        border-radius: 5px;
+        width: 700px;
+        padding: 20px;
+        margin: 100px;
+    }
+    .checker-cols {
+      overflow: hidden;
+    }
+    input[type=text], select {
+      width: 150px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: #ce3028e5;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: white;
+    }
+    input[type=submit]:hover {
+      background-color: #df2b21f6;
+    }
+    .trip-type {
+      margin: 20px 38% 20px 38%;
+    }
+
+
+/* ======= Layout Footer ======= */
+    footer {
+      overflow: hidden;
+      display: flex;
+      opacity: 0.7;
+      bottom: 0;
+      width: 100%;
+      background-color: #034b78;
+      border-top: black solid;
+    }
+
+    .f-col {
+      padding: 12px 0;
+      color: white;
+      margin: 0 170px 0;
+    }
+    
+    .f-col h3 {
+      margin-top:0;
+      margin-bottom:12px;
+    }
+    
+    .f-col ul {
+      padding:0;
+      list-style: none;
+      line-height:1.6;
+      font-size:14px;
+      margin-bottom:0;
+    }
+    
+    .f-col ul a {
+      color:inherit;
+      text-decoration: none;
+      opacity:0.8;
+    }
+    
+    .f-col ul a:hover {
+      opacity:1;
+    }
+
+  

@@ -1,0 +1,50 @@
+// Capital one color palletes
+
+blue: 034b78
+red: d03027
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Capital One Travel</title>
+        <link href= "css/style.css" rel= "stylesheet">
+    </head>
+
+    <body>
+        <!-- TopBar -->
+        <header>
+            <!-- Logo -->
+            <div class= "logo">
+                <img src= "images/capital-one-logo.png" alt= "capital one logo" width= "200px">
+            </div>
+            
+            <!-- Toolbar -->
+            <div class= "toolbar">
+                <div class= "tb-column">
+                    <img src= "images/search.svg" alt= "search icon">
+                </div>
+                <div class= "tb-column">
+                    <h1>Trips</h1>
+                </div>
+                <div class= "tb-column">
+                    <h1>Contact</h1>
+                </div>
+                <div class= "tb-column">
+                    <h1>Sign In</h1>
+                </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
+
+</html>
