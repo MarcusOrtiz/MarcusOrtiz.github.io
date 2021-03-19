@@ -68,7 +68,7 @@ header {
   /* Background city image */
   .title-background {
     border: black solid;
-    background-image: url("images/city-3.jpg");
+    background-image: url("https://marcusortiz.github.io/images/city-3.jpg");
 
   }
   /* Text in front of image (city) */
